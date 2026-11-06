@@ -1,0 +1,19 @@
+{
+  "name": "mini-games-relationship",
+  "version": "1.0.0",
+  "description": "Realtime Web Couple Mini Games with Text & Voice Call",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "online": "node online.js",
+    "dev": "node server.js",
+    "tunnel": "node tunnel.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "localtunnel": "^2.0.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.4"
+  }
+}
